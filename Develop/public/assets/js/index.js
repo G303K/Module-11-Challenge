@@ -25,6 +25,7 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
+//This needs to route to a db.json
 const getNotes = () =>
   fetch('/notes', {
     method: 'GET',
